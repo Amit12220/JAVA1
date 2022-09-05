@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args) {
+      
+      int n=100,i,count2=0;
+
+      for(i=1;i<=n;i++)
+      {
+          int j=1;
+          int count=0;
+          while(j<=i)
+          {
+             if(i%j==0)
+             {
+                 count++;
+             }
+             j++;
+          }
+          if(count==2)
+          {
+              count2++;
+          }
+      }
+
+
+      System.out.println(count2);
+    }
+
+}
