@@ -1,0 +1,8 @@
+Q-Why is multiple inheritance not supported in Java at class level ?
+
+Ans-multiple inheritance not supported in Java at class level because
+in multiple inheritance one child inherit properties from more than one
+parent.
+       Just consider a situation when both parent have same Method signature
+ and variables and if we want to call one method , then compiler could not
+determine  that from which parent it can get  method(Priority).
